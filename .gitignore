@@ -1,0 +1,18 @@
+# 忽略所有 .log 文件
+*.log
+
+# 忽略所有 .tmp 文件
+*.tmp
+
+# 忽略所有 .txt 文件，但不包括 todo.txt
+*.txt
+!todo.txt
+
+# 忽略所有在 /vendor/ 目录下的文件
+/vendor/
+
+# 忽略所有在 build/ 目录下的文件
+#build/
+
+# 忽略所有的 .pdf 文件，在任何子目录下
+**/*.pdf
